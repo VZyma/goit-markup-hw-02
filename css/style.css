@@ -43,6 +43,21 @@ color: #4D5AE5;
     color: #404bbf;
 }
 
+.navigation-list-link {
+    color: #2E2f42;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+    color: #404bbf;
+}
+
 .address {
     font-style: normal;
 }
@@ -81,7 +96,6 @@ color: #4D5AE5;
 .orderbutton {
     background-color: #4D5AE5;
     color: #ffffff;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
